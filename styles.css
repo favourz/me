@@ -1,0 +1,149 @@
+/* *********************************
+           Variables
+  ********************************** */
+/* *********************************
+   Some Style Overrides on Bootstrap
+  ********************************** */
+
+html, body {
+height: 100%;
+width: 100%;
+}
+
+.navbar-inverse {
+  background: rgba(62, 195, 246, 0);
+  border-bottom: none;
+}
+.content {
+background-color: bisque;
+height: auto;
+min-height: 60%;
+}
+.steprow {
+width: 110%;}
+.backgroundstep {
+   position: relative;
+    margin-top: 1%;
+ background: rgba(111, 255, 255, 0.95);
+    
+}
+.navbar-inverse .navbar-toggle {
+  border: 1px solid #333;
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: transparent;
+}
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    background: rgba(255, 255, 255, 0.75);
+  }
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: black;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: #22F;
+}
+li a {
+  text-decoration: none;
+  position: relative;
+  padding: 6px 0;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  color: lightblue;
+}
+li a:after {
+  content: '';
+  width: 0%;
+  margin-left: 50%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  border-radius: 40%;
+  position: absolute;
+  transition: all 0.5s;
+}
+li a:hover:after {
+  background-color: white;
+  width: 60%;
+  margin-left: 20%;
+  box-shadow: 0px 0px 10px white;
+}
+li a.active:after {
+  background-color: white;
+  width: 60%;
+  margin-left: 20%;
+  box-shadow: 0px 0px 10px white;
+}
+
+/* *********************************
+           Toolbar Logo
+  ********************************** */
+.small-logo-container {
+  padding-top: 50px;
+  height: 50px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.small-logo {
+  color: white;
+  font-size: 2.5em;
+  padding-bottom: 2px;
+    padding-left: 30px;
+}
+
+/* *********************************
+           Big Logo
+  ********************************** */
+.big-logo-row {
+  background: grey;
+    height: 30%
+}
+.big-logo-row .big-logo-container {
+  padding-top: 50px;
+}
+.big-logo-row h1 {
+  font-size: 4em;
+  margin: 0;
+  padding: 0 0 15px 0;
+}
+@media (min-width: 400px) {
+  .big-logo-row h1 {
+    font-size: 4.5em;
+  }
+}
+@media (min-width: 440px) {
+  .big-logo-row h1 {
+    font-size: 5.5em;
+  }
+}
+@media (min-width: 500px) {
+  .big-logo-row h1 {
+    font-size: 6.5em;
+  }
+}
+@media (min-width: 630px) {
+  .big-logo-row h1 {
+    font-size: 7.5em;
+  }
+}
+@media (min-width: 768px) {
+  .big-logo-row h1 {
+    font-size: 9em;
+    padding-bottom: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .big-logo-row h1 {
+    font-size: 12em;
+  }
+}
+
+.glyphicon {
+padding-left: 2% !important;
+}
