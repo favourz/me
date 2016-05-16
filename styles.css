@@ -20,11 +20,13 @@ height: auto;
 min-height: 60%;
 }
 .steprow {
-width: 110%;}
+width: 100%;}
 .backgroundstep {
-   position: relative;
-    margin-top: 1%;
- background: rgba(111, 255, 255, 0.95);
+   margin-top: 1%;
+    position: relative;
+    height: 102%;
+    width: 106%;
+ background: rgba(44, 255, 255, 0.7);
     
 }
 .navbar-inverse .navbar-toggle {
@@ -147,3 +149,5 @@ li a.active:after {
 .glyphicon {
 padding-left: 2% !important;
 }
+.headline {
+text-align: center;}
